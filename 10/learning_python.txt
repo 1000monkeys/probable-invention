@@ -1,0 +1,3 @@
+In Python you don't use end of line markers
+In Python you can rapidly start programming
+In Python variables are weak typed
