@@ -1,7 +1,7 @@
 if __name__ == "__main__":
 
-    print("BEGIN VERSION 1 & 3")
-    # Version 1 & 3
+    print("BEGIN VERSION 1-2 & 3")
+    # Version 1-2 & 3
     active = True
     toppings = []
     while active:
