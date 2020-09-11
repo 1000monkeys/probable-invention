@@ -11,4 +11,4 @@ user.increment_login_attempts()
 
 print(user.login_attempts)
 user.reset_login_attempts()
-print(user.login_attemptss)
+print(user.login_attempts)
