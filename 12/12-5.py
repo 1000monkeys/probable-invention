@@ -107,8 +107,6 @@ def run_game():
         # Watch for keyboard and mouse events.
         check_events(rocket, screen, bullets)
 
-        print(len(bullets))
-
         rocket.update()
         rocket.blitme(screen)
 

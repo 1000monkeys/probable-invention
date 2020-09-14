@@ -33,5 +33,5 @@ if __name__ == "__main__":
     print("Is job true and hourly wage above 10? I predict False")
     print(job is not False and hourly_wage > 10)
 
-    print("Is kids false and hourly wage below 5? I predict False")
+    print("Is kids false and hourly wage below 5and6? I predict False")
     print(kids is False and hourly_wage > 5)
