@@ -9,9 +9,12 @@ class Raindrop(Sprite):
         self.rect = raindrop_image.get_rect()
         self.rect.x = start_x
         self.rect.y -= offset_y
+        self.y = float(self.rect.y)
+        self.speed = random.randint(0, 10) / 10
 
     def update(self):
-        self.rect.y += random.randint(0, 5)
+        self.y += self.speed
+        self.rect.y = int(self.y)
 
     def blitme(self):
         self.screen.blit(self.raindrop_image, self.rect)
