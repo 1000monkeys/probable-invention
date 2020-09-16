@@ -9,7 +9,6 @@ class GameStats():
         self.ai_settings = ai_settings
         self.reset_stats()
 
-        hs = 0
         try:
             with open('score.txt') as json_file:
                 data = json.load(json_file)
