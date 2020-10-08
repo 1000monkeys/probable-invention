@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from pizzariaApp import views
+
 urlpatterns = [
+    path('', views.index, name='index'),
+    path('pizzas/', views.pizzas, name='pizzas'),
+    path('toppings/', views.toppings, name='toppings'),
     path('admin/', admin.site.urls),
 ]

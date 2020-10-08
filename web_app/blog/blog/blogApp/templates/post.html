@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <a href="{% url 'edit_blog_post' post.id %}">Edit this post</a>
+    <p>{{ post.title }}</p>
+    <p>{{ post.text }}</p>
+{% endblock content %}

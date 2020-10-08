@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # My Apps
     'learning_logs',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -58,7 +59,10 @@ ROOT_URLCONF = 'learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'learning_logs/templates')],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'learning_logs/templates'),
+            os.path.join(BASE_DIR, 'user/templates/users')
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,3 +126,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+LOGIN_URL = '/users/login/'

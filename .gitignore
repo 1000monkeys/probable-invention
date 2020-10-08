@@ -1,0 +1,12 @@
+
+.idea/
+
+web_app/users/migrations/__pycache__/
+
+web_app/users/__pycache__/
+
+web_app/pizzaria/pizzaria/pizzariaApp/__pycache__/
+
+web_app/pizzaria/pizzaria/pizzariaApp/migrations/__pycache__/
+
+*.pyc

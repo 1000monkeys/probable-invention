@@ -3,6 +3,8 @@ from employee import Employee
 
 
 class TestEmployee(unittest.TestCase):
+    
+
     def setUp(self):
         self.employee = Employee("Kjell", "Vos", "1000000")
 
